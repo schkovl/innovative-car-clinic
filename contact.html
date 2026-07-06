@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact Us | Innovative Car Clinic</title>
+  <meta name="description" content="Get in touch with Innovative Car Clinic in Ancaster, Ontario — questions, quotes and service bookings." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a class="brand" href="index.html">Innovative <span>Car Clinic</span></a>
+      <nav aria-label="Main navigation">
+        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu">Menu</button>
+        <ul class="nav-links" id="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-hero" aria-labelledby="page-heading">
+      <img src="assets/banner.jpg" alt="" width="1920" height="600" loading="eager" fetchpriority="high" />
+      <div class="wrap">
+        <p class="section-kicker">Get In Touch</p>
+        <h1 id="page-heading">Contact Us</h1>
+      </div>
+    </section>
+
+    <section class="section" aria-label="Contact details and form">
+      <div class="wrap">
+        <h2 class="section-title">Get in Touch With Us for All Your Automotive Needs</h2>
+        <p class="lede">Whether you have questions, need a quote, or want to schedule a service, we're here to help!</p>
+
+        <div class="contact-grid">
+          <div class="contact-facts reveal">
+            <div>
+              <h3>Location</h3>
+              <p>Ancaster, ON</p>
+            </div>
+            <div>
+              <h3>Phone</h3>
+              <p><a href="tel:+19053940559">905-394-0559</a></p>
+            </div>
+            <div>
+              <h3>Email</h3>
+              <p><a href="mailto:info@innovativecarclinic.ca">info@innovativecarclinic.ca</a></p>
+            </div>
+            <div>
+              <h3>Opening Hours</h3>
+              <p>Mon - Fri: 10am - 5pm</p>
+              <p>Sat: 10am - 2pm</p>
+              <p>Sun: Closed</p>
+            </div>
+            <div>
+              <h3>Social</h3>
+              <p><a href="https://instagram.com/innovativecarclinic" rel="noopener">Instagram — @innovativecarclinic</a></p>
+            </div>
+          </div>
+
+          <form class="contact-form reveal" id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" autocomplete="name" required />
+              </div>
+              <div class="field">
+                <label for="phone">Phone</label>
+                <input type="tel" id="phone" name="phone" autocomplete="tel" />
+              </div>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            <div>
+              <button class="btn btn--solid" type="submit">Send</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-grid">
+      <div>
+        <h3>Follow Our Social</h3>
+        <p>Stay connected by joining us on social media.</p>
+        <a href="https://instagram.com/innovativecarclinic" rel="noopener">Instagram — @innovativecarclinic</a>
+      </div>
+      <div>
+        <h3>Opening Hours</h3>
+        <p>Mon - Fri: 10am - 5pm</p>
+        <p>Sat: 10am - 2pm</p>
+        <p>Sun: Closed</p>
+      </div>
+      <div>
+        <h3>Contact Us</h3>
+        <p>Ancaster, ON</p>
+        <p><a href="tel:+19053940559">905-394-0559</a></p>
+        <p><a href="mailto:info@innovativecarclinic.ca">info@innovativecarclinic.ca</a></p>
+      </div>
+    </div>
+    <div class="wrap footer-legal">© 2023 by Innovative Car Clinic, All Rights Reserved.</div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
